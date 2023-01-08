@@ -1836,11 +1836,12 @@ h1 {
   transition: all 0.5s ease-in-out; }
   .button-price::after {
     content: '';
-    background: url(./static/whiteArrowRight.svg);
+    background: url("/src/img/whiteArrowRight.svg");
     width: 0.4rem;
     height: 0.6rem;
     margin-bottom: 0.3rem; }
-  .button-price:hover {
+  src/img/whiteArrowRight.svg
+.button-price:hover {
     transform: scale(1.02);
     opacity: 0.75; }
   @media (min-width: 768px) {
@@ -2054,7 +2055,7 @@ h1 {
   transition: all 0.5s ease-in-out; }
   .button-modal::after {
     content: '';
-    background: url(./static/whiteArrowRight.svg);
+    background: url("/src/img/whiteArrowRight.svg");
     width: 0.4rem;
     height: 0.6rem;
     margin-bottom: 0.3rem; }

@@ -2106,7 +2106,8 @@ h1 {
       display: flex;
       height: 11rem;
       overflow: hidden;
-      flex-wrap: wrap; } }
+      flex-wrap: wrap;
+      transform: translate3d(0px, 0px, 0px) !important; } }
   @media (min-width: 1120px) {
     .swiper-wrapper {
       display: flex;

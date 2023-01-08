@@ -1836,7 +1836,7 @@ h1 {
   transition: all 0.5s ease-in-out; }
   .button-price::after {
     content: '';
-    background: url("/src/img/whiteArrowRight.svg");
+    background: url(./static/whiteArrowRight.svg);
     width: 0.4rem;
     height: 0.6rem;
     margin-bottom: 0.3rem; }
@@ -2054,7 +2054,7 @@ h1 {
   transition: all 0.5s ease-in-out; }
   .button-modal::after {
     content: '';
-    background: url("/src/img/whiteArrowRight.svg");
+    background: url(./static/whiteArrowRight.svg);
     width: 0.4rem;
     height: 0.6rem;
     margin-bottom: 0.3rem; }

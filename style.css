@@ -1100,19 +1100,19 @@ template {
   font-family: "TTLakes Meduim";
   font-style: normal;
   font-weight: 700;
-  src: local("TTLakes"), url("/src/fonts/TTLakes-Medium.woff") format("woff"); }
+  src: local("TTLakes"), url(./fonts/TTLakes-Medium.woff) format("woff"); }
 
 @font-face {
   font-family: "TTLakes Bold";
   font-style: normal;
   font-weight: 400;
-  src: local("TTLakes"), url("/src/fonts/TTLakes-Bold.woff") format("woff"); }
+  src: local("TTLakes"), url(./fonts/TTLakes-Bold.woff) format("woff"); }
 
 @font-face {
   font-family: "TTLakes Regular";
   font-style: normal;
   font-weight: 400;
-  src: local("TTLakes"), url("/src/fonts/TTLakes-Regular.woff") format("woff"); }
+  src: local("TTLakes"), url(./fonts/TTLakes-Regular.woff) format("woff"); }
 
 body {
   background-color: #F8F8F8; }

@@ -1,0 +1,22 @@
+@import '../vars.scss';
+.brands-list__item{
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  width:13rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem 1rem;
+  background-color: $main;
+  border: 0.1rem solid $devider;
+  border-radius: 0.5rem;
+  box-sizing: content-box;
+  @media (min-width: 768px){
+    height: 2.5rem;
+    width:12.5rem;
+  }
+  @media (min-width: 1120px){
+    width: 12.5rem;
+    margin: 0.5rem 1rem 0.5rem 1rem;
+  }
+}

@@ -1,0 +1,40 @@
+@import '../vars.scss';
+.main{
+  // display: grid;
+  // grid-template-areas:
+  //   "aside main-container";
+  // grid-template-columns: 320px 1fr;
+  background-color: $main;
+  @media (min-width: 1440px){
+    position: relative;
+    display: grid;
+    grid-template-areas:
+      "aside main-container";
+    grid-template-columns: 320px 1fr;
+}
+}
+.main-container{
+  background-color:$bgrey ;
+  overflow: hidden;
+  @media (min-width: 320px){
+    grid-column: aside/main-container;
+  }
+  @media (min-width: 768px){
+    grid-column: aside/main-container;
+  }
+  @media (min-width: 1140px){
+    grid-column: main-container;
+  }
+}
+.main-container--close{
+  background-color:$bgrey ;
+  grid-area: main-container;
+  overflow: hidden;
+  opacity: 0.05;
+}
+.main-container--disable{
+  opacity: 0.05;
+  overflow: none;
+
+}
+

@@ -1,0 +1,37 @@
+@import './vars.scss';
+.button-modal{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 7.5rem;
+  height: 1.75rem;
+  border-radius: 1rem;
+  margin-left: auto;
+  margin-right: 1rem;
+  border: 1px solid $btnprice;
+  background-color: $btnprice;
+  cursor: pointer;
+  font-family: 'TTLakes Meduim"', sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  color: $main;
+  padding: 0.35rem 1rem 0.2rem 0.75rem;
+  transition: all 0.5s ease-in-out;
+  &::after{
+    content: '';
+    background:url('../img/whiteArrowRight.svg');
+    width: 0.4rem;
+    height: 0.6rem;
+    margin-bottom: 0.3rem;
+  }
+  &:hover{
+    transform: scale(1.02);
+    opacity: 0.75;
+  }
+  @media (min-width: 768px){
+    bottom: 1rem;
+    margin-right: 2rem;
+  }
+}

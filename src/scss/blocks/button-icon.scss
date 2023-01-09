@@ -1,0 +1,66 @@
+.button-icon{
+  width: 40px;
+  height: 40px;
+  margin: 1.5rem 0.5rem;
+  border: none;
+  border-radius: 50%;
+  padding-left: 0;
+  transition: all 0.5s ease-in-out;
+  &:hover{
+    transform: scale(1.1);
+    opacity: 0.75;
+  }
+}
+.button-label{
+  display: block;
+  font-family:"TTLakes Meduim";
+  font-size: 16px;
+  letter-spacing: 0.01rem;
+  white-space: nowrap;
+}
+.button-icon--close{
+  margin: 1rem 1rem;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  padding-left: 0;
+  transition: all 0.5s ease-in-out;
+  &:hover{
+    transform: scale(1.1);
+    opacity: 0.75;
+  }
+  @media (min-width: 768px){
+    position: fixed;
+    right: 22rem;
+    margin-top: 0.8rem;
+  }
+  @media (min-width: 1440px){
+    position: fixed;
+    right: 29rem;
+    margin-top: 1.75rem;
+  }
+}
+.button-icon__modal--close{
+  margin: 1rem 1rem;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  padding-left: 0;
+  transition: all 0.5s ease-in-out;
+  &:hover{
+    transform: scale(1.1);
+    opacity: 0.75;
+  }
+  @media (min-width: 768px){
+    position: fixed;
+    right: 22rem;
+    margin-top: 0.8rem;
+  }
+  @media (min-width: 1440px){
+    position: fixed;
+    right: 29rem;
+    margin-top: 1.75rem;
+  }
+}

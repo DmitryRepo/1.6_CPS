@@ -1,0 +1,11 @@
+.box-menu{
+  display: flex;
+  & div:nth-child(1){
+    display: none;
+  }
+  @media (min-width: 768px){
+    & div:nth-child(1){
+      display: block;
+    }
+  }
+}

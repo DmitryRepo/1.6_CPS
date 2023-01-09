@@ -1,0 +1,29 @@
+@import '../vars.scss';
+.price-annotation{
+  display:flex;
+  flex-direction: column;
+  font-family: 'TTLakes Regular';
+  font-size: 14px;
+  margin: 0rem 2rem;
+  margin-top: -1rem;
+  height: auto;
+  line-height: 1.5;
+  & a {
+    text-decoration: none;
+    font-family: 'TTLakes Meduim';
+    color: $title;
+  }
+  // a:visited {
+  //     text-decoration: none;
+  //     font-family: 'TTLakes Regular';
+  //     color: $textm;
+  //   }
+  @media (min-width: 768px){
+    width: 30rem;
+  }
+
+}
+.image-arrow{
+  padding-left: 0.2rem;
+  vertical-align: middle;
+};

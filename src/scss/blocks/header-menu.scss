@@ -1,0 +1,30 @@
+@import '../vars.scss';
+.header{
+  display: flex;
+  flex-direction: column;
+  height: 88px;
+  background-color: $main;
+  padding: 0 0;
+  border-bottom: 1px solid $decor;
+  @media (min-width: 1120px){
+      display:none;
+  }
+  &.header--close{
+    display: none;
+  }
+
+}
+.header-menu{
+  display:flex;
+  justify-content: space-between;
+}
+.header-menu--close{
+  opacity: 0.05;
+  display:flex;
+  justify-content: space-between;
+
+}
+
+.header--disable{
+  opacity: 0.05;
+}

@@ -1,0 +1,32 @@
+@import '../vars.scss';
+.main-nav{
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding: 1rem;
+
+  &__item{
+    display: inline-block;
+    font-size: 1rem;
+    font-family: 'TTLakes Regular';
+    color:$textm;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+  }
+  &__item:first-child {
+    border: 0.1rem solid $decor;
+    border-radius: 0.4rem;
+    background-color: $main;
+  }
+  &__item:focus {
+    border: 0.1rem solid $decor;
+    border-radius: 0.4rem;
+    background-color: $main;
+  }
+  @media(min-width: 1120px){
+    white-space: normal;
+
+    &__item{
+        padding: 1rem 1.25rem;
+    }
+  }
+}

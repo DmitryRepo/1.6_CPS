@@ -1,0 +1,59 @@
+
+.cards-button {
+  display: none;
+  @media (min-width: 768px){
+    display: block;
+    margin-top: 1rem;
+  }
+  @media (min-width: 1120px){
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+  }
+}
+.cards-pointer {
+  &__brands{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0rem 0 1rem 1rem;
+    font-family: "TTLakes Meduim";
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.01rem;
+    border: none;
+    background-color: transparent;
+    vertical-align: middle;
+  }
+  &__devices{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0rem 0 1rem 1rem;
+    font-family: "TTLakes Meduim";
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.01rem;
+    border: none;
+    background-color: transparent;
+    vertical-align: middle;
+  }
+}
+.cards-pointer--close {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0rem 0 1rem 0rem;
+  font-family: "TTLakes Meduim";
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.01rem;
+  border: none;
+  background-color: transparent;
+}
+.image-pointer {
+  margin-right: 1rem;
+  &__devices{
+    margin-right: 1rem;
+  }
+}
+.image-pointer--rotate{
+  transform: rotate(180deg);
+  margin-right: 1rem;
+}

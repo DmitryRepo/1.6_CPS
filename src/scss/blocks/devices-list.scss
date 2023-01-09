@@ -1,0 +1,24 @@
+@import '../vars.scss';
+.devices-list__item{
+  font-family: 'TTLakes Meduim';
+  display: flex;
+  justify-content: space-between;
+  height: 10rem;
+  width: 13rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem 1rem;
+  background-color: $main;
+  border: 0.1rem solid $devider;
+  border-radius: 0.5rem;
+  box-sizing: content-box;
+  .card-button{
+    align-self: end;
+  }
+  @media (min-width: 768px){
+    width: 12rem;
+  }
+  @media (min-width: 1120px){
+    width: 13.5rem;
+  }
+}

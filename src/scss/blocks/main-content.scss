@@ -1,0 +1,56 @@
+.main-content{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  @media (min-width: 768px){
+    flex-direction: row;
+    align-items: flex-start;
+    }
+}
+
+.content-text{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin:0;
+  padding: 0;
+  font-family: 'TTLakes Regular';
+  &__p{
+    font-size: 14px;
+    padding: 1rem 1rem 1rem 1rem;
+    letter-spacing: 0.01rem;
+  }
+  &__p--disable:nth-child(2){
+    display: none;
+  }
+  @media (min-width: 768px){
+    width: 50%;
+    padding-left:1rem;
+    &__p{
+      height: auto;
+      font-size: 14px;
+      padding: 1.5rem 1rem 0.5rem 1rem;
+      margin: 0 2rem 0 0;
+      letter-spacing: 0.01rem;
+    }
+    &__p--disable:nth-child(2){
+      display: block;
+      font-size: 14px;
+      letter-spacing: 0.01rem;
+      padding: 1rem 1rem 1rem 1rem;
+    }
+    &__p--disable--more:nth-child(1){
+      display:none;
+    }
+  }
+  @media (min-width: 1120px){
+    &__p{
+      padding: 0rem 1rem 1rem 1rem;
+      width: 95%;
+    }
+    &__p--disable--more:nth-child(1){
+      display: inline;
+  }
+  }
+}
+

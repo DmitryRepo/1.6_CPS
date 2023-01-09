@@ -8,9 +8,13 @@
     display: inline-block;
     font-size: 1rem;
     font-family: 'TTLakes Regular';
+    height: auto;
     color:$textm;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    margin-bottom: 0.2rem;
+    border: 0.1rem solid $decor;
+    border-color:transparent;
   }
   &__item:first-child {
     border: 0.1rem solid $decor;

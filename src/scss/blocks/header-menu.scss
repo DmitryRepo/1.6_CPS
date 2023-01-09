@@ -6,7 +6,7 @@
   background-color: $main;
   padding: 0 0;
   border-bottom: 1px solid $decor;
-  @media (min-width: 1120px){
+  @media (min-width: 1440px){
       display:none;
   }
   &.header--close{
